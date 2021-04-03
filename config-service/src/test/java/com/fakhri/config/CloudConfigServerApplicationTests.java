@@ -1,10 +1,10 @@
-package com.fakhri.cloudgateway;
+package com.fakhri.config;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CloudGatewayApplicationTests {
+class CloudConfigServerApplicationTests {
 
 	@Test
 	void contextLoads() {

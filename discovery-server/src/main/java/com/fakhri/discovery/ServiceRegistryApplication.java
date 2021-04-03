@@ -1,4 +1,4 @@
-package com.fakhri.serviceregistry;
+package com.fakhri.discovery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

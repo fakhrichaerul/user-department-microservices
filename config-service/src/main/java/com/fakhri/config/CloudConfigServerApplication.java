@@ -1,4 +1,4 @@
-package com.fakhri.cloud;
+package com.fakhri.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,8 +7,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-// Mengaktifkan konfigurasi cloud config server
-@EnableConfigServer
+@EnableConfigServer // Mengaktifkan konfigurasi spring config server untuk cloud config git
 public class CloudConfigServerApplication {
 
 	public static void main(String[] args) {
