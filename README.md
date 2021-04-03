@@ -2,7 +2,7 @@
 
 Cara menjalankan :
 
-1. konfigurasi global secara otomatis diambil dari https://github.com/fakhrichaerul/user-department-microservices-cloud-config
+1. konfigurasi global secara otomatis diambil dari git repo https://github.com/fakhrichaerul/user-department-microservices-cloud-config
    menggunakan dependency spring cloud config
 
 2. Jalankan `config-service` dan `discovery-server` terlebih dahulu
