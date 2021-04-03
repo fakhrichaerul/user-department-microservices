@@ -1,6 +1,6 @@
-package com.fakhri.department.service.repository;
+package com.fakhri.department.repository;
 
-import com.fakhri.department.service.entity.Department;
+import com.fakhri.department.entity.Department;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

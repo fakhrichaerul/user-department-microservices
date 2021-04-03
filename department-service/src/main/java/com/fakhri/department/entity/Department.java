@@ -1,4 +1,4 @@
-package com.fakhri.department.service.entity;
+package com.fakhri.department.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

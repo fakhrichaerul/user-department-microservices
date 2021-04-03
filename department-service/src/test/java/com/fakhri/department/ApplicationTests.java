@@ -1,4 +1,4 @@
-package com.fakhri.department.service;
+package com.fakhri.department;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

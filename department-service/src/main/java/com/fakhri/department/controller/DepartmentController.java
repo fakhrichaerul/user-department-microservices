@@ -1,7 +1,7 @@
-package com.fakhri.department.service.controller;
+package com.fakhri.department.controller;
 
-import com.fakhri.department.service.entity.Department;
-import com.fakhri.department.service.service.DepartmentService;
+import com.fakhri.department.entity.Department;
+import com.fakhri.department.service.DepartmentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

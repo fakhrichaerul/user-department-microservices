@@ -1,7 +1,7 @@
-package com.fakhri.department.service.service;
+package com.fakhri.department.service;
 
-import com.fakhri.department.service.entity.Department;
-import com.fakhri.department.service.repository.DepartmentRepository;
+import com.fakhri.department.repository.DepartmentRepository;
+import com.fakhri.department.entity.Department;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
