@@ -30,7 +30,7 @@ Cara menjalankan :
       "lastName" : "Chaerul",
       "email" : "fakhrichaerul@gmail.com",
       "departmentId" : "IT-001"
-      }
+    }
     ```
     
     Akses ke aplikasi department-service di endpoint `http://localhost:10002/departments/`
