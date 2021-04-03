@@ -7,45 +7,45 @@ Cara menjalankan :
 
 2. Jalankan `config-service` dan `discovery-server` terlebih dahulu
 
-2. Kemudian Jalankan `gateway-service`, `user-service` dan `department-service`
+3. Kemudian Jalankan `gateway-service`, `user-service` dan `department-service`
 
-5. Start aplikasi
+4. Start aplikasi
 
     ```
     mvn clean spring-boot:run
     ```
+    
+5. Akses ke aplikasi discovery-server di endpoint `http://localhost:8761`
 
-7. Akses ke aplikasi user-service di endpoint `http://localhost:10001/users/`
+6. Akses ke aplikasi user-service di endpoint `http://localhost:9999/users/`
 
     ```
-    curl http://localhost:10001/users/
+    curl http://localhost:9999/users/
     ```
    
     Contoh request post json di user-service
     
     ```json
     {
-      "userId" : "1",
-      "firstName" : "Fakhri",
-      "lastName" : "Chaerul",
-      "email" : "fakhrichaerul@gmail.com",
-      "departmentId" : "IT-001"
+    "firstName": "Fakhri",
+    "lastName": "Chaerul",
+    "email": "fakhrichaerul@gmail.com",
+    "departmentId": 1
     }
     ```
     
-    Akses ke aplikasi department-service di endpoint `http://localhost:10002/departments/`
+7.  Akses ke aplikasi department-service di endpoint `http://localhost:9999/departments/`
 
     ```
-    curl http://localhost:10002/departments/
+    curl http://localhost:9999/departments/
     ```
    
     Contoh request post json di department-service
     
     ```json
     {
-      "departmentId" : "IT-001",
-      "departmentName" : "IT",
-      "departmentAddress" : "Bandung",
-      "departmentCode" : "IT"
+    "departmentName": "IT",
+    "departmentAddress": "Bandung",
+    "departmentCode": "IT-001"
     }
     ```
